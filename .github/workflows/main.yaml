@@ -6,6 +6,27 @@ on:
       - main
 
 jobs:
+  lint:
+
+    name: Build NextJs App
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Get latest code
+      uses: actions/checkout@v2.3.4
+
+    - name: Use Node.js v16
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+      
+    - name: Install NPM Modules
+      run: npm ci
+
+    - name: Build Frontend
+      run: npm run lint
+
+
   build:
 
     name: Build NextJs App
