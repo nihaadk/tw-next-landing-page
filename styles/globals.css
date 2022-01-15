@@ -4,6 +4,14 @@
 
 @layer components {
   .nav-item {
-    @apply py-4 px-4 text-gray-500 font-semibold border-b-4 border-white transition duration-300 ease-linear hover:text-green-500 hover:border-green-500 active:text-green-500 active:border-green-500;
+    @apply py-4 px-4 text-gray-500 font-semibold border-b-4 border-white transition duration-300 ease-linear hover:text-blue-600 hover:border-blue-600;
+  }
+
+  .btn-primary {
+    @apply flex justify-center py-3 px-8 bg-blue-500 text-center rounded-md text-white font-bold;
+  }
+
+  .btn-second {
+    @apply flex justify-center py-3 px-8 bg-blue-200 text-center rounded-md text-blue-500 font-bold;
   }
 }
