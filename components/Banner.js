@@ -28,11 +28,11 @@ const Banner = () => {
             laborum non nostrud quis proident.
           </p>
           <div className="mt-2 sm:mt-5 flex flex-col sm:flex-row">
-            <div className="md:m-2">
+            <div className="m-2">
               <Button title="View Propertie" type="primary" link="#first" />
             </div>
 
-            <div className="md:m-2">
+            <div className="m-2">
               <Button title="View Propertie" type="second" link="#first" />
             </div>
           </div>
