@@ -15,13 +15,25 @@ jobs:
     - name: Get latest code
       uses: actions/checkout@v2.3.4
 
-    - name: Use Node.js v16.13.0
+    - name: Use Node.js v16
       uses: actions/setup-node@v2
       with:
-        node-version: '16.13.0'
+        node-version: '16'
       
     - name: Install NPM Modules
       run: npm ci
 
     - name: Build Frontend
       run: npm run build
+  
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: amondnet/vercel-action@v20
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
+          vercel-args: '--prod' #Optional
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID}}  #Required
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID}} #Required 
+          working-directory: ./sub-directory
