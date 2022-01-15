@@ -66,7 +66,8 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    name: "Deploy front-end"
+    name: Deploy
+    needs: [build]
     
     steps:
       - uses: actions/checkout@v2
