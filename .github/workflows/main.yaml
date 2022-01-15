@@ -23,7 +23,7 @@ jobs:
     - name: Install NPM Modules
       run: npm ci
 
-    - name: Build Frontend
+    - name: Lint Frontend
       run: npm run lint
 
 
