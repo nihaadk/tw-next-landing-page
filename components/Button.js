@@ -18,4 +18,10 @@ const Button = (props) => {
   return <div>{button}</div>;
 };
 
+Button.propTypes = {
+  title: PropTypes.string,
+  link: PropTypes.string,
+  type: PropTypes.string,
+}
+
 export default Button;

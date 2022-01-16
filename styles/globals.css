@@ -14,4 +14,12 @@
   .btn-second {
     @apply flex justify-center py-3 px-8 bg-blue-200 text-center rounded-md text-blue-500 font-bold;
   }
+
+  .pill-gray {
+    @apply inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2
+  }
+
+  .pill-blue {
+    @apply inline-block bg-blue-500 rounded-full px-4 py-1 text-sm font-bold text-white
+  }
 }
