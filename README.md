@@ -1,6 +1,6 @@
 ## DEMO 
 
-[OPEN VERCEL LINK](https://tw-next-landing-page.vercel.app/)
+[CLICK HERE](https://tw-next-landing-page.vercel.app/)
 
 ## Getting Started
 
