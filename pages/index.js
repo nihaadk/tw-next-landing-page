@@ -16,7 +16,7 @@ export default function Home() {
 
       <main>
         <Banner />
-        <RecentProperties/>
+        <RecentProperties />
       </main>
     </div>
   );

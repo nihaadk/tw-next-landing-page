@@ -28,9 +28,7 @@ const RecentPropertieCard = (props) => {
           {props.price}
         </span>
       </div>
-      <div className="px-6 pt-4 pb-2">
-        {displayOptions}
-      </div>
+      <div className="px-6 pt-4 pb-2">{displayOptions}</div>
       <div className="px-6 pt-4 pb-8">
         <button className="pill-blue">View Property</button>
       </div>
