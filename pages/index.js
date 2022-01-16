@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navigation from "../components/Navigation";
 import Banner from "../components/Banner";
+import RecentProperties from "../components/RecentProperties";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
 
       <main>
         <Banner />
+        <RecentProperties/>
       </main>
     </div>
   );
