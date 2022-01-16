@@ -10,6 +10,7 @@ const recentProperties = [
       "Dolore id culpa quis ad duis sint mollit in sunt adipisicing mollitid. Officia laboris non irure non amet sunt enim dolore nulla nulla laborum sunt anim deserunt.",
     price: "$500.00",
     image: prop1,
+    options: ['7 Baths', '7 Beds']
   },
   {
     title: "Florida Villa",
@@ -17,6 +18,7 @@ const recentProperties = [
       "Dolore id culpa quis ad duis sint mollit in sunt adipisicing mollitid. Officia laboris non irure non amet sunt enim dolore nulla nulla laborum sunt anim deserunt.",
     price: "$340.00",
     image: prop2,
+    options: ['2 Baths', '4 Beds']
   },
   {
     title: "Gracia Pia",
@@ -24,6 +26,7 @@ const recentProperties = [
       "Dolore id culpa quis ad duis sint mollit in sunt adipisicing mollitid. Officia laboris non irure non amet sunt enim dolore nulla nulla laborum sunt anim deserunt.",
     price: "$355.00",
     image: prop3,
+    options: ['1 Baths', '4 Beds']
   },
 ];
 
@@ -33,6 +36,7 @@ const RecentProperties = () => {
       title={property.title}
       description={property.description}
       image={property.image}
+      options={property.options}
       key={index}
     />
   ));
