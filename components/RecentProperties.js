@@ -42,7 +42,7 @@ const RecentProperties = () => {
   ));
 
   return (
-    <div className="mt-5">
+    <div className="my-40">
       <div className="text-center">
         <h2 className="font-bold text-gray-500 text-3xl">Recent Properties</h2>
       </div>
