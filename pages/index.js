@@ -17,7 +17,7 @@ export default function Home() {
 
       <main>
         <Banner />
-        <RecentProperties/>
+        <RecentProperties />
         <MiddelBanner />
       </main>
     </div>

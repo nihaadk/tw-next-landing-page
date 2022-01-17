@@ -1,6 +1,6 @@
 import Button from "./Button";
 import banner from "../public/img/banner.webp";
-import Image from 'next/image';
+import Image from "next/image";
 
 const Banner = () => {
   return (
