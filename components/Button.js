@@ -22,6 +22,6 @@ Button.propTypes = {
   title: PropTypes.string,
   link: PropTypes.string,
   type: PropTypes.string,
-}
+};
 
 export default Button;
