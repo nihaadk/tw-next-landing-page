@@ -38,6 +38,7 @@ const RecentProperties = () => {
       image={property.image}
       options={property.options}
       key={index}
+      showDetails={true}
     />
   ));
 
@@ -46,7 +47,7 @@ const RecentProperties = () => {
       <div className="text-center">
         <h2 className="font-bold text-gray-500 text-3xl">Recent Properties</h2>
       </div>
-      <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 p-10 gap-5">
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 p-10 gap-20">
         {recentPropertyCards}
       </div>
     </div>
