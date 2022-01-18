@@ -26,15 +26,14 @@ const locations = [
 
 const Locations = () => {
   const mappedLocations = locations.map((location, index) => (
-    <div className="sm:mx-0 md:mx-0 lg:mx-20 xl:mx-20">
-        <RecentPropertieCard
-      title={location.title}
-      description={location.description}
-      image={location.image}
-      options={location.options}
-      key={index}
-      showDetails={false}
-    />
+    <div className="sm:mx-0 md:mx-0 lg:mx-20 xl:mx-20" key={index}>
+      <RecentPropertieCard
+        title={location.title}
+        description={location.description}
+        image={location.image}
+        options={location.options}
+        showDetails={false}
+      />
     </div>
   ));
 
