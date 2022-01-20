@@ -23,20 +23,19 @@ const clients = [
 ];
 
 const Testimonials = () => {
-  const clientsCards = clients.map((c) => (
+  const clientCards = clients.map((client, index) => (
     <TestimonialsCard
-      name={c.name}
-      title={c.title}
-      description={c.description}
+      key={index}
+      name={client.name}
+      title={client.title}
+      description={client.description}
     />
   ));
 
   return (
     <div className="my-40">
       <Title>What clients say about us ?</Title>
-      <div className="grid-col-3">
-        {clientsCards}
-      </div>
+      <div className="grid-col-3">{clientCards}</div>
     </div>
   );
 };
