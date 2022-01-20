@@ -7,9 +7,9 @@ const TestimonialsCard = (props) => {
   return (
     <div className="bg-white mx-auto  h-72 flex flex-col justify-around shadow-lg rounded-xl p-4">
       <p className="text-gray-600 mb-5">
-        <span className="text-blue-500 font-bold text-xl">"</span>
+        <span className="text-blue-500 font-bold text-xl">{'"'}</span>
         {props.description}
-        <span className="text-blue-500 font-bold text-xl">"</span>
+        <span className="text-blue-500 font-bold text-xl">{'"'}</span>
       </p>
       <div className="flex bg-blue-100 items-center rounded-full">
         <a href="#" alt="link">
