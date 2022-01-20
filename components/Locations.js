@@ -2,6 +2,7 @@ import RecentPropertieCard from "./RecentPropertieCard";
 import ny from "../public/img/ny.webp";
 import sf from "../public/img/sf.webp";
 import bs from "../public/img/bs.webp";
+import Title from './Title';
 
 const locations = [
   {
@@ -39,9 +40,7 @@ const Locations = () => {
 
   return (
     <div className="my-40">
-      <div className="text-center">
-        <h2 className="font-bold text-gray-500 text-3xl">Locations</h2>
-      </div>
+      <Title>Locations</Title>
       <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 p-10 gap-5">
         {mappedLocations}
       </div>

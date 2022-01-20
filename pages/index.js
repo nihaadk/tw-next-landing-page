@@ -5,6 +5,7 @@ import RecentProperties from "../components/RecentProperties";
 import ImageBanner from "../components/ImageBanner";
 import Locations from "../components/Locations";
 import ColorBanner from "../components/ColorBanner";
+import Testimonials from "../components/Testimonials";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <ImageBanner />
         <Locations />
         <ColorBanner />
+        <Testimonials />
       </main>
     </div>
   );
