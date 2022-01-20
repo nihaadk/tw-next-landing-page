@@ -22,4 +22,8 @@
   .pill-blue {
     @apply inline-block bg-blue-500 rounded-full px-4 py-1 text-sm font-bold text-white
   }
+
+  .grid-col-3 {
+    @apply grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 p-10 gap-20
+  }
 }

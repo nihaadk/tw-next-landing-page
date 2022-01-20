@@ -1,6 +1,5 @@
-import PropTypes from "prop-types";
 
-const MiddelBanner = (props) => {
+const ImageBanner = () => {
   return (
     <div
       className="py-40 bg-cover h-auto"
@@ -24,6 +23,4 @@ const MiddelBanner = (props) => {
   );
 };
 
-MiddelBanner.propTypes = {};
-
-export default MiddelBanner;
+export default ImageBanner;
