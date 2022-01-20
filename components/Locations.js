@@ -2,7 +2,7 @@ import RecentPropertieCard from "./RecentPropertieCard";
 import ny from "../public/img/ny.webp";
 import sf from "../public/img/sf.webp";
 import bs from "../public/img/bs.webp";
-import Title from './Title';
+import Title from "./Title";
 
 const locations = [
   {
