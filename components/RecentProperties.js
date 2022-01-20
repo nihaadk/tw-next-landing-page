@@ -47,9 +47,7 @@ const RecentProperties = () => {
       <div className="text-center">
         <h2 className="font-bold text-gray-500 text-3xl">Recent Properties</h2>
       </div>
-      <div className="grid-col-3">
-        {recentPropertyCards}
-      </div>
+      <div className="grid-col-3">{recentPropertyCards}</div>
     </div>
   );
 };

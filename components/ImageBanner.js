@@ -1,4 +1,3 @@
-
 const ImageBanner = () => {
   return (
     <div
