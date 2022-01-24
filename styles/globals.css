@@ -26,4 +26,12 @@
   .grid-col-3 {
     @apply grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 p-10 gap-20
   }
+
+  .input-label {
+    @apply block uppercase text-xs text-gray-700 font-bold mb-2 tracking-wider
+  }
+
+  .input {
+    @apply block py-3 px-4 rounded text-gray-700 w-full;
+  }
 }
