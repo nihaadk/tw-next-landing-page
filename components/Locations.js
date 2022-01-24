@@ -41,9 +41,7 @@ const Locations = () => {
   return (
     <div className="my-40">
       <Title>Locations</Title>
-      <div className="grid-col-3 gap-5 sm:gap-10">
-        {mappedLocations}
-      </div>
+      <div className="grid-col-3 gap-5 sm:gap-10">{mappedLocations}</div>
     </div>
   );
 };

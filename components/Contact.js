@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "./Title";
-import Button from './Button';
+import Button from "./Button";
 
 const Contact = () => {
   return (
@@ -11,25 +11,19 @@ const Contact = () => {
         <form className="w-full max-w-lg">
           <div className="flex flex-wrap mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label className="input-label">
-                First Name
-              </label>
+              <label className="input-label">First Name</label>
               <input
                 type="text"
                 className="input mb-3"
                 placeholder="First Name"
               />
-              <p className="text-blue-500 text-sm italic">Please fill out this field</p>
+              <p className="text-blue-500 text-sm italic">
+                Please fill out this field
+              </p>
             </div>
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label className="input-label">
-                First Name
-              </label>
-              <input
-                type="text"
-                className="input"
-                placeholder="Last Name"
-              />
+              <label className="input-label">First Name</label>
+              <input type="text" className="input" placeholder="Last Name" />
             </div>
           </div>
 
@@ -50,7 +44,8 @@ const Contact = () => {
               <textarea
                 type="text"
                 className="input"
-                rows="4" cols="50"
+                rows="4"
+                cols="50"
                 placeholder="Write here you message"
               />
             </div>
