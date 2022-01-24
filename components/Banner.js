@@ -1,16 +1,16 @@
 import Button from "./Button";
-import banner from "../public/img/banner.webp";
+import prop1 from "../public/img/prop1.webp";
 import Image from "next/image";
 
 const Banner = () => {
   return (
-    <section className="text-gray-600 body-font px-4 py-20">
+    <section className="text-gray-600 body-font px-4 py-20 bg-blue-100">
       <div className="container mx-auto flex flex-col md:flex-row items-center my-16">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-          <div className="relative w-128 h-64">
+          <div className="relative w-128 h-80">
             <Image
               objectFit="cover"
-              src={banner}
+              src={prop1}
               alt="Banner Image"
               layout="fill"
               priority

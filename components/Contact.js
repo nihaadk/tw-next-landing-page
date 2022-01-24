@@ -7,7 +7,7 @@ const Contact = () => {
     <div>
       <Title>Contact</Title>
 
-      <div className="bg-blue-300 mt-5 flex p-10 justify-center items-center">
+      <div className="bg-blue-300 mt-5 flex p-10 justify-center items-center h-100">
         <form className="w-full max-w-lg">
           <div className="flex flex-wrap mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -17,7 +17,7 @@ const Contact = () => {
               <input
                 type="text"
                 className="input mb-3"
-                placeholder="Will"
+                placeholder="First Name"
               />
               <p className="text-blue-500 text-sm italic">Please fill out this field</p>
             </div>
@@ -28,7 +28,7 @@ const Contact = () => {
               <input
                 type="text"
                 className="input"
-                placeholder="Will"
+                placeholder="Last Name"
               />
             </div>
           </div>
@@ -39,6 +39,7 @@ const Contact = () => {
               <input
                 type="text"
                 className="input"
+                placeholder="Email adresse"
               />
             </div>
           </div>
@@ -50,6 +51,7 @@ const Contact = () => {
                 type="text"
                 className="input"
                 rows="4" cols="50"
+                placeholder="Write here you message"
               />
             </div>
           </div>
