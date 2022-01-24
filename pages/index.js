@@ -6,6 +6,8 @@ import ImageBanner from "../components/ImageBanner";
 import Locations from "../components/Locations";
 import ColorBanner from "../components/ColorBanner";
 import Testimonials from "../components/Testimonials";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -25,6 +27,8 @@ export default function Home() {
         <Locations />
         <ColorBanner />
         <Testimonials />
+        <Contact />
+        <Footer />
       </main>
     </div>
   );

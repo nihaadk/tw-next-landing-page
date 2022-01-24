@@ -35,7 +35,7 @@ const Testimonials = () => {
   return (
     <div className="my-40">
       <Title>What clients say about us ?</Title>
-      <div className="grid-col-3">{clientCards}</div>
+      <div className="grid-col-3 gap-20 sm:gap-15">{clientCards}</div>
     </div>
   );
 };
